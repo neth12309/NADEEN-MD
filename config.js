@@ -15,6 +15,8 @@ READ_MESSAGE: process.env.READ_MESSAGE || "false", //true or false
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true", //true or false
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false", //true or false
 AUTO_TYPING: process.env.AUTO_TYPING || "false", //true or false
+AUTO_STATUS_LIKE: process.env.AUTO_STATUS_LIKE || "true", //true or false
+AUTO_STATUS_LIKE_EMOJI: process.env.AUTO_STATUS_LIKE_EMOJI || "💚", //ad any emoji
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", //true or false
 AUTO_VOICE:"true" //true or false
 };
